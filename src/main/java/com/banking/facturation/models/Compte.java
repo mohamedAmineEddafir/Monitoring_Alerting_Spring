@@ -24,7 +24,7 @@ public class Compte implements Serializable {
     @Id
     @GeneratedValue(strategy = GenerationType.IDENTITY)
     @Column(name = "id_compte")
-    private long idCompte;
+    private int idCompte;
 
     @NotBlank
     @Column(precision = 10, scale = 2)

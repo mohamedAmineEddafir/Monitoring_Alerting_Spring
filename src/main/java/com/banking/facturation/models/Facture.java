@@ -19,7 +19,7 @@ public class Facture implements Serializable {
     @Id
     @GeneratedValue(strategy = GenerationType.IDENTITY)
     @Column(name = "id_facture")
-    private long idFacture;
+    private int idFacture;
 
     @NotBlank
     @Column(name = "date_facture")

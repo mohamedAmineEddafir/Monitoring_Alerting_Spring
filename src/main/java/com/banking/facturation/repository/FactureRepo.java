@@ -1,4 +1,7 @@
 package com.banking.facturation.repository;
 
-public interface FactureRepo {
+import com.banking.facturation.models.Facture;
+import org.springframework.data.jpa.repository.JpaRepository;
+
+public interface FactureRepo extends JpaRepository<Facture, Integer> {
 }

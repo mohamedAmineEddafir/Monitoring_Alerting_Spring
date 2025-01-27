@@ -23,7 +23,7 @@ public class Facture implements Serializable {
 
     @NotBlank
     @Column(name = "date_facture")
-    private LocalDate date;
+    private LocalDate dateFacture;
 
     // Many Factures can belong to One Client
     @ManyToOne

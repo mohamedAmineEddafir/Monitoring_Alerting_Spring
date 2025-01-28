@@ -28,6 +28,12 @@ Monitoring_Alerting_Spring/
 ├── src/
 │   ├── main/
 │   │   ├── java/         # Java source files
+│   │   │   ├── controller
+│   │   │   ├── DTO
+│   │   │   ├── models
+│   │   │   ├── repository
+│   │   │   ├── service
+│   │   │   │   ├── impl
 │   │   └── resources/    # Application properties and resources
 │   └── test/             # Test files
 ├── .mvn/                 # Maven wrapper directory
@@ -130,5 +136,3 @@ The content is based on the project's pom.xml file and repository structure. You
 3. Adding more detailed usage examples
 4. Including troubleshooting sections
 5. Adding badges for build status, code coverage, etc.
-
-Would you like me to make any adjustments to this README?

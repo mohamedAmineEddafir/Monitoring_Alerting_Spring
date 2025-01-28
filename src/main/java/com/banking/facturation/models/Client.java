@@ -8,6 +8,7 @@ import java.util.List;
 import jakarta.persistence.*;
 import jakarta.validation.constraints.Email;
 import jakarta.validation.constraints.NotBlank;
+import lombok.Getter;
 import lombok.NoArgsConstructor;
 
 
@@ -39,6 +40,20 @@ public class Client implements Serializable {
 
     @Column(name = "telephone")
     private String telephone;
+
+    // Getter's
+    public String getNom(){
+        return nom;
+    }
+    public String getPrenom(){
+        return prenom;
+    }
+    public String getEmail(){
+        return email;
+    }
+    public String getTelephone(){
+        return telephone;
+    }
 
     /*
      * Relationships Between Entity's
